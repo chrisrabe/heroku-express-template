@@ -1,0 +1,28 @@
+{
+  "name": "heroku-express-template",
+  "version": "1.0.0",
+  "description": "Template for creating a express heroku app",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "heroku",
+    "express",
+    "node"    
+  ],
+  "author": "Chris Rabe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.5.0"
+  }
+}

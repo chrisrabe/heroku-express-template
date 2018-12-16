@@ -1,12 +1,9 @@
 // NOTE: Can modify this to many controllers
 
+function index(req, res, next) {
+  res.render("pages/index", { title: "Change Me" });
+}
+
 module.exports = {
-
-    // Define route handler functions here...
-    
-    index: (req, res, next) => {
-        res.render('pages/index', {title: 'Change Me'});
-    }
-
-
+  index
 };
